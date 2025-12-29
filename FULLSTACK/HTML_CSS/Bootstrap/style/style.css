@@ -1,0 +1,7 @@
+.textContent{
+ font-size: 34px;
+
+}
+.textAreaInput:hover{
+    border: 2px solid skyblue;
+}

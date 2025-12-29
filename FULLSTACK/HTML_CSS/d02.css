@@ -1,0 +1,125 @@
+body {
+ 
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+ 
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: 50px;
+}
+  .animated-name {
+      font-family: 'Pacifico', cursive;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 50px;
+      animation: blinkColor 15s infinite;
+      color: #ff4b5c;
+      text-shadow: 0 0 10px #ff4b5c, 0 0 20px #ff6f91;
+    }
+
+    @keyframes blinkColor {
+      0%   { color: #ff4b5c; text-shadow: 0 0 5px #ff4b5c; }
+      25%  { color: #ff6f91; text-shadow: 0 0 10px #ff6f91; }
+      50%  { color: #6a82fb; text-shadow: 0 0 15px #6a82fb; }
+      75%  { color: #00c9a7; text-shadow: 0 0 20px #00c9a7; }
+      100% { color: #ff4b5c; text-shadow: 0 0 5px #ff4b5c; }
+    }
+.card {
+  background-color: white;
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,50,0.2);
+  border-radius: 10px;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.intro {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  margin: 21px auto;
+}
+
+.intro span {
+  color: #ff4b5c;
+  font-style: italic;
+  padding: 0 5px;
+}
+
+.college {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block; /* So it behaves like a button */
+  padding: 10px 20px;
+  background-color: #0BEDCF;
+  color: green ;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+   cursor :pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.fas.fa-envelope {
+  background-color: white;
+  border: 1px solid white ;
+  border-radius: 6px;
+  padding: 5px;
+  color: red;
+}
+.fab.fa-whatsapp{
+  background-color: white;
+  border: 1px solid white ;
+  border-radius: 6px;
+  padding: 5px;
+  color: green
+}
+.fas.fa-brain{
+background-color: white;
+  border: 1px solid white ;
+  border-radius: 6px;
+  padding: 5px;
+  color:  pink;
+}
+.fas.fa-lightbulb{
+background-color: white;
+  border: 1px solid white ;
+  border-radius: 6px;
+  padding: 5px;
+  color:   yellow;
+}
+.fas.fa-heart
+{background-color: white;
+  border: 1px solid white ;
+  border-radius: 6px;
+  padding: 5px;
+  color:   red;
+}
+
+
+
+
+
+
+
+
+
+
+
+

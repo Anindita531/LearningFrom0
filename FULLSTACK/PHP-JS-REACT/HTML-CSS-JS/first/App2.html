@@ -1,0 +1,22 @@
+<button id="btn">Click Me</button>
+<p id="msg"></p>
+<head>
+    <style>
+        #btn{
+            padding: 20px;
+            margin: 100px;
+            color: blue;
+           border-radius: 20px;
+           cursor: pointer;
+        }
+        #btn:hover{
+            background-color: aqua;
+        }
+
+    </style>
+</head><script>
+  document.getElementById("btn").addEventListener("click", () => {
+    alert("Anindita");
+    document.getElementById("msg").innerText = "Hello, Anindita!";
+  });
+</script>

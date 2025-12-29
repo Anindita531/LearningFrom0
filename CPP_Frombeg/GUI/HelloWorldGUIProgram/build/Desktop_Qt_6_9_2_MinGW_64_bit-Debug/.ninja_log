@@ -1,0 +1,10 @@
+# ninja log v6
+12	114	7790171879308213	HelloWorldGUIProgram_autogen/timestamp	247e40dc4617cdf3
+12	114	7790171879308213	HelloWorldGUIProgram_autogen/mocs_compilation.cpp	247e40dc4617cdf3
+12	114	7790171879308213	D:/Learning From Zero/CPP_Frombeg/GUI/HelloWorldGUIProgram/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/HelloWorldGUIProgram_autogen/timestamp	247e40dc4617cdf3
+12	114	7790171879308213	D:/Learning From Zero/CPP_Frombeg/GUI/HelloWorldGUIProgram/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/HelloWorldGUIProgram_autogen/mocs_compilation.cpp	247e40dc4617cdf3
+663	2867	7790170212854044	CMakeFiles/HelloWorldGUIProgram.dir/HelloWorldGUIProgram_autogen/mocs_compilation.cpp.obj	5e2756a9ca7030aa
+114	2282	7790171880321138	CMakeFiles/HelloWorldGUIProgram.dir/mainwindow.cpp.obj	60e694ec5726f6c3
+665	3002	7790170212874041	CMakeFiles/HelloWorldGUIProgram.dir/main.cpp.obj	a8497c9117ead32a
+3002	3328	7790170236248231	HelloWorldGUIProgram.exe	251b03fcd45c2938
+116	2262	7790171880351140	CMakeFiles/HelloWorldGUIProgram.dir/main1.cpp.obj	e296581548bbf499

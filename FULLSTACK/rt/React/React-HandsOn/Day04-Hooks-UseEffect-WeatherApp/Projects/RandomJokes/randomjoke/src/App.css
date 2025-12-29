@@ -1,0 +1,196 @@
+/* --- Overall Page Styling --- */
+body {
+  background: linear-gradient(180deg, #9fb426, #3e0580);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --- App Card --- */
+.App {
+  background: linear-gradient(180deg, #2e215d, #3e0580);
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(9, 11, 104, 0.4);
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.App:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 30px rgba(9, 11, 104, 0.5);
+}
+
+/* --- Heading and Quote Section --- */
+h1 {
+  font-size: 2.3rem;
+  text-shadow: 2px 3px 10px rgba(255, 255, 255, 0.3);
+  margin-bottom: 15px;
+  color: #ffed70;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+cite {
+  display: block;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #d0c8ff;
+  font-size: 1.1rem;
+  text-shadow: 0 0 6px rgba(160, 16, 16, 0.2);
+}
+
+/* --- Joke Section --- */
+.joke {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: #1b0044;
+  background: linear-gradient(135deg, #ffdbf1, #551fd4);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  transition: all 0.4s ease;
+}
+
+.joke:hover {
+  background: linear-gradient(135deg, #ffe978, #93e9be);
+  transform: scale(1.03);
+}
+
+/* --- Loading Spinner --- */
+.loadSpinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #ffed70;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  animation: spin 1s linear infinite;
+  margin: 25px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* --- Button Styling --- */
+button {
+  background: linear-gradient(to right, #ff7eb3, #8e44ad);
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 25px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #8e44ad, #ff7eb3);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+}
+
+/* --- Error Message --- */
+.error {
+  color: #ff4c4c;
+  margin-top: 15px;
+  font-weight: 600;
+  text-shadow: 0 0 6px rgba(255, 0, 0, 0.3);
+}
+
+/* --- Laugh Icon Animation --- */
+.fas {
+  color: #e4c70a;
+  font-size: 2.3rem;
+  margin-right: 8px;
+  vertical-align: middle;
+  animation: bounce 2s infinite;
+}
+.toggle-btn {
+  background: linear-gradient(135deg, #ffd166, #ff6f61);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 111, 97, 0.4);
+}
+
+.toggle-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 111, 97, 0.6);
+}
+
+.toggle-icon {
+  font-size: 2rem;
+  transition: transform 0.6s ease, color 0.6s ease;
+  color: #ccc;
+}
+
+.toggle-icon.active {
+  transform: rotate(360deg);
+  color: #ff6f61;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+.random-joke {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  line-height: 1.6;
+  animation: fadeIn 0.8s ease-in;
+}
+
+.meta {
+  color: #6d6b6b;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  letter-spacing: 0.3px;
+}
+
+/* Typing effect for the joke */
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #ffed70;
+  width: 0;
+  display: inline-block;
+  animation: typing 3s steps(40, end) forwards, blink 0.75s step-end infinite;
+  color:  #bd056a;
+  font-size: 1.2rem;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+  margin-top: 10px;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

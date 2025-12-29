@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-around; /* spacing */
+  align-items: center;           /* vertical alignment */
+}
+.box {
+   
+  width: 400px;
+  height: 400px;
+ 
+}
+.red{
+ background-color:  red;
+}
+.blue{
+ background-color:blue;
+}.pink{
+ background-color:pink;
+}

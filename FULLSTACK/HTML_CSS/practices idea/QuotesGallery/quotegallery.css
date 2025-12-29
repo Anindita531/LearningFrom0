@@ -1,0 +1,35 @@
+
+.quote-card{
+    width:200px ;
+    height: 200px;
+    margin: auto;
+    perspective: 1000px ;
+}
+.quote-inner{
+    width:100%;
+    height: 100%;
+    position:relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.quote-card:hover .quote-inner{
+    transform: rotateY(180deg);
+}
+.quote-front,.quote-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: medium;
+}
+.quote-front{
+    color: #0a3469;
+}
+.quote-back{
+    background: rgb(67, 67, 145);
+    transform: rotateY(180deg);
+}

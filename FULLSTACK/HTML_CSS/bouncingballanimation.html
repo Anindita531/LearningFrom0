@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bouncing Ball Animation</title>
+  <link rel="stylesheet" href="bouncingball.css">
+</head>
+<body>
+  <h2>Bouncing Ball Animation (1D with all properties)</h2>
+
+  <button onclick="togglePlay()">▶️ Play / ⏸ Pause</button>
+  <div class="ball"></div>
+
+  <script>
+    function togglePlay() {
+      const ball = document.querySelector('.ball');
+      ball.style.animationPlayState =
+        ball.style.animationPlayState === 'paused' ? 'running' : 'paused';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html >
+<html lang="en" data-bs-theme="dark" id="themeToggle">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap online code Editor</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+  <!--   Navbar Start-->
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">  
+      <img src="images/logo.png"  width="30" height="24" class="d-inline-block align-text-top">Bootstrap5 online code Editor</a>
+      <div class="form-check form-switch">
+        <input class="form-check-input"
+         type="checkbox"
+          role="switch" 
+          id="flexSwitchBox"
+         onclick="toggleTheme()"
+         >
+        <label class="form-check-label" for="flexSwitchBox"  id="navSwitchtext"><i class="bi bi-brightness-high"></i></label>
+      </div>
+    </div>
+  </nav>
+  <!--   Navbar End-->
+  <!--   HTML,CSS,JS INPUT AREA Start-->
+  <section>
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="mb-3">
+            <label for="html-input" class="form-label textContent"><i class="bi bi-filetype-html"></i>HTML</label>
+            <textarea class="form-control" id="html-input" rows="8" placeholder="Type your Html Code"
+             onkeyup = "finaloutput()" > </textarea>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-3">
+            <label for="css-input"  class="form-label textContent"><i class="bi bi-filetype-css"></i>CSS</label>
+            <textarea class="form-control" id="css-input" rows="8" placeholder="Type your CSS Code" onkeyup="finaloutput()">
+        </textarea>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-3">
+            <label for="js-input" class="form-label textContent"><i class="bi bi-filetype-js"></i>JS</label>
+            <textarea class="form-control" id="js-input" rows="8" placeholder="Type your js Code"onkeyup="finaloutput()"></textarea>
+          </div>
+        </div>
+
+    </div>
+    </div>
+  </section>
+  <!--   HTML,CSS,JS INPUT AREA End-->
+  <!--   OUTPUT AREA Start-->
+  <section>
+    <div class= "container-fluid">
+      <div class="textContent"><i class="bi bi-caret-right-fill"></i>Output </div>
+      <div class="ratio ratio-21x9 border border-3 border-dark rounded" style="--bs-aspect-ratio: 20%;">
+        <iframe id="codeExecutionOutput" ></iframe>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

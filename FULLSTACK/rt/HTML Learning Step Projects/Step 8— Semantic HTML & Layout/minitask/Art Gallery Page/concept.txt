@@ -1,0 +1,17 @@
+একটা “Gallery Layout” বানাও যেখানে থাকবে:
+
+<header> — Gallery Title
+
+<nav> — Home | Artists | Exhibitions | Contact
+
+<main>
+
+<section> — ৬টা <img> tag (৩টা একসাথে এক row, align করো)
+
+প্রতিটা ছবির নিচে <figcaption> দাও
+
+<aside> — Featured Artist info
+
+<footer> — Social links
+
+💡 Optional: align দিয়ে image গুলো alternate left-right বসাও।

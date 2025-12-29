@@ -1,0 +1,23 @@
+objective is:
+“How did the number of COVID-19 cases change over time in India?”
+
+What this means:
+We will look at COVID-19 case data from India.
+
+We will analyze how the number of cases grew or reduced day by day or month by month.
+
+We will visualize this trend using graphs so it’s easy to understand.
+
+Next step (Step 2): Get the data.
+For this objective, we need a dataset that contains COVID-19 daily or weekly cases for India.
+Which one would you like to start with? Here’s a quick reminder:
+
+Predict future cases with forecasting models (easy and very useful).
+
+State-wise analysis for deeper insights per region.
+
+Build an interactive dashboard using Plotly Dash or Streamlit.
+
+Analyze government interventions by adding lockdown dates or policies.
+
+Prepare a polished report or GitHub repo with your findings and code.

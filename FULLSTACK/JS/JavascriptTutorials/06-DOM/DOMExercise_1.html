@@ -1,0 +1,12 @@
+<p id="para1">Hello</p>
+<p class="para">World</p>
+
+<script>
+const p1 = document.getElementById("para1"); // single element
+console.log(p1);
+const allPara = document.getElementsByClassName("para"); // HTMLCollection
+console.log( allPara);
+const firstPara = document.querySelector(".para"); // first element
+const allQuery = document.querySelectorAll("p"); // NodeList
+console.log(p1, allPara, firstPara, allQuery);
+</script>

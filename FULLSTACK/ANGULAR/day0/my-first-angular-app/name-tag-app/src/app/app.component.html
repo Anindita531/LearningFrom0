@@ -1,0 +1,32 @@
+<div class="container">
+ 
+
+<div style="text-align: center; margin-top: 30px;">
+  <h2>Name Tag Generator</h2>
+
+  <!-- Only render the tag when name or photo exists -->
+  <div *ngIf="name || photoUrl" #nameTagRef
+       style="padding: 20px; border: 2px solid black; display: inline-block; text-align: center; background: white;">
+ 
+    <img *ngIf="photoUrl" [src]="photoUrl" width="100" height="100"
+         alt="User Photo"
+         style="border-radius: 50%; object-fit: cover;" />   <h2>{{ name }}</h2>
+  </div>
+
+
+
+  <input type="text" [(ngModel)]="name" placeholder="Enter your name" />
+  <br><br>
+
+  <input type="file" accept="image/*" (change)="onFileSelected($event)" />
+
+  <br><br>
+
+  <button (click)="downloadTag()" [disabled]="!name && !photoUrl">
+    Download Name Tag
+  </button>
+  
+  <br><qrcode *ngIf="name" [qrdata]="name" [width]="128" [errorCorrectionLevel]="'M'"></qrcode>
+</div>
+
+</div>

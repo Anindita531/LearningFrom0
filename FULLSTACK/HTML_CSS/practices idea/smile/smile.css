@@ -1,0 +1,84 @@
+  body {
+      background-color: rgb(228, 228, 228);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .face-container {
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+      border-radius: 50%;
+      box-shadow: 0 4px 6px rgba(180, 10, 10, 0.5);
+      position: relative;
+         
+      transform: rotate(180deg);
+    }
+
+    /* Eyes */
+    .eye {
+      width: 30px;
+      height: 40px;
+      background-color: black;
+      border-radius: 50%;
+      position: absolute;
+      top: 50px;
+      animation: blink 3s infinite ease-in-out;
+    }
+
+    .eye.left {
+      left: 50px;
+    }
+
+    .eye.right {
+      right: 50px;
+    }
+
+    /* Eye shine */
+    .pupil {
+      width: 10px;
+      height: 10px;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    /* Mouth */
+    .mouth {
+      width: 100px;
+      height: 60px;
+      border-bottom: 8px solid black;
+      border-radius: 0 0 80px 80px;
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* Blinking Animation */
+  
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+        
+        
+    }
+
+    50% {
+        opacity: 0.5; 
+       
+    }
+
+    100% {
+        opacity: 1;
+       
+   
+    }
+
+}

@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+
+img {
+  margin: 20px;
+  border: 3px solid #333;
+  transition: filter 0.5s;
+}
+
+/* Normal image */
+.normal {
+  filter: drop-shadow(0 0 0 gray);
+}
+
+/* Drop shadow applied */
+.shadow {
+  filter: drop-shadow(10px 10px 5px blue);
+}
+
+/* Hover effect */
+img:hover {
+  filter: drop-shadow(15px 15px 10px black);
+}
+

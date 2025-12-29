@@ -1,0 +1,46 @@
+2. “Recipe Cards Gallery” 🍝📜
+
+Concept: Reusable card component যেখানে প্রতিটা recipe এর নাম, সময়, difficulty, আর image দেখাবে।
+Props: title, time, difficulty, imageUrl, ingredients
+Extra: “Show Ingredients” বাটনে hover করলে list দেখাবে।
+
+💡 3. “Book Recommendation Shelf” 📚✨
+
+Concept: একাধিক বইয়ের জন্য reusable component — image, author, rating, description props আকারে পাঠাবে।
+Bonus Idea: props দিয়ে genre পাঠালে border color বদলাবে (fiction = green, tech = blue, romance = pink)।
+
+💡 4. “Mini Product Showcase” 🛍️
+
+Concept: Simple e-commerce style — props দিয়ে product name, price, discount, image পাঠাবে।
+Extra: একটি “Add to Cart” বাটন রাখবে (এখন static রাখো, Day 3-এ dynamic হবে)।
+
+💡 5. “Team Role Badges” 👩‍💻👨‍🎨
+
+Concept: Reusable badge component যেখানে props হিসেবে name, role, color পাঠাবে।
+Example:
+
+<RoleBadge name="Anindita" role="UX Designer" color="purple" />
+
+
+Hover করলে badge enlarge হবে।
+
+💡 6. “Travel Destination Cards” 🌍🗺️
+
+Concept: Beautiful cards with location image, name, country, and short note।
+Props Example:
+
+<PlaceCard name="Paris" country="France" imgUrl="..." desc="City of Love" />
+
+
+Extra: প্রতিটা দেশ অনুযায়ী flag দেখাবে (emoji or URL)।
+
+💡 7. “Favorite Movie Poster Wall” 🎬
+
+Concept: 5টা poster card তৈরি করো যেখানে props দিয়ে title, year, genre, rating পাঠাবে।
+Extra: Hover করলে poster টা একটু zoom হবে আর info fade-in করে দেখাবে।
+
+🎨 Bonus (Creative)
+
+তুমি চাওলে এগুলো mix করে বানাতে পারো যেমন:
+“Mood-based Movie Gallery” → প্রতিটা mood এর সাথে related movie দেখাবে!
+(props দিয়ে mood, image, title, tagline পাঠাও)

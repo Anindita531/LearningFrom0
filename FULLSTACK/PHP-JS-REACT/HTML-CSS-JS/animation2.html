@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+
+<meta content="width=device-width initial-scale=1.0" >
+<style>
+body{
+background-color:#de5df8;
+
+margin:200px;
+}
+.box{
+padding:20px;
+color:red;
+box-shadow: 0 0 20px #ff4b5c, 0 0 30px #ff4b5c;
+border-radius :20px;
+cursor:pointer;
+font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #fd4b5c, #4dd4c1, #f4f7f8);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: pulseAnim  3s ease-in-out infinite;
+ 
+}
+
+ 
+@keyframes pulseAnim {
+  0% { top:50px ;transform:   rotateY( 90deg); }
+ 20% {left:50px ; transform:  rotateX(180deg); }
+  40 % { top:-50px; transform:    rotateY(360deg);}
+  60% { {left:50px;transform:   rotate (360deg); }
+ 80% { transform:   rotate (360deg); } 
+  100 % { transform:   rotate (-90deg);}
+ 
+}
+.glow-button{
+margin :50px;  transform: scale(1.05);
+}
+button:hover{
+ animation: pulseAnim 2s infinite;
+background-color:black;
+}
+</style>
+</head>
+<body>
+ <div class="box"></div>
+
+
+</body>
+
+</html>

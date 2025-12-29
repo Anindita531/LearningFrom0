@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Photo with Background Music</title>
+<style>
+  body {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+  }
+  img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+  audio {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<h2><b>Photo with Background Music</b></h2>
+<figure>
+<img src="srk.jpg" alt="Photo with Music">
+<figcaption><q>kal ho na ho..</q></figcaption>
+</figure>
+<audio id="bgmusic" loop>
+  <source src="happy.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  document.addEventListener("click", () => {
+    const music = document.getElementById("bgmusic");
+    music.play();
+  });
+</script>
+
+</body>
+</html>

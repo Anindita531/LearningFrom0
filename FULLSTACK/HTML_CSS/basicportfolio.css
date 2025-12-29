@@ -1,0 +1,28 @@
+/* style.css */
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4dad5;
+  color: #333;
+}
+
+header {
+  background: #069988;
+  color: white;
+  padding: .5rem;
+  text-align: center;
+}
+
+section {
+  padding: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  background: #972;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}

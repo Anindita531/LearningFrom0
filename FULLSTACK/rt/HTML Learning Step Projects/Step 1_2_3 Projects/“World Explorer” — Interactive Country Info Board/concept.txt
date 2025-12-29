@@ -1,0 +1,25 @@
+🧩 Concept:
+একটা world-info directory বানাও।
+
+Structure:
+
+World Explorer
+|__ Asia
+    |__ India → link to page (india.html)
+    |__ Japan → link to page (japan.html)
+|__ Europe
+    |__ France
+    |__ Germany
+
+
+প্রত্যেক country page-এ থাকবে:
+
+Capital
+
+Language
+
+Currency
+
+Flag image (later Step 4 তে শিখবে)
+
+🎯 Unique কারণ: HTML structure দিয়েই ছোট encyclopedia তৈরি।

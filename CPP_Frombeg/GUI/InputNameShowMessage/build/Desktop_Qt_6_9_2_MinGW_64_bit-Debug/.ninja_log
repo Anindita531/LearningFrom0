@@ -1,0 +1,9 @@
+# ninja log v6
+9	666	7790174932300670	InputNameShowMessage_autogen/timestamp	3ad05724960680bc
+9	666	7790174932300670	InputNameShowMessage_autogen/mocs_compilation.cpp	3ad05724960680bc
+9	666	7790174932300670	D:/Learning From Zero/CPP_Frombeg/GUI/InputNameShowMessage/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/InputNameShowMessage_autogen/timestamp	3ad05724960680bc
+9	666	7790174932300670	D:/Learning From Zero/CPP_Frombeg/GUI/InputNameShowMessage/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/InputNameShowMessage_autogen/mocs_compilation.cpp	3ad05724960680bc
+670	2807	7790174932880666	CMakeFiles/InputNameShowMessage.dir/InputNameShowMessage_autogen/mocs_compilation.cpp.obj	95a1146ce5a36051
+675	2874	7790174932920366	CMakeFiles/InputNameShowMessage.dir/mainwindow.cpp.obj	9a22bf1c417e0d18
+672	3025	7790174932900368	CMakeFiles/InputNameShowMessage.dir/main.cpp.obj	d236adacf4724956
+3025	3208	7790174956424371	InputNameShowMessage.exe	6ac799c723ec160c

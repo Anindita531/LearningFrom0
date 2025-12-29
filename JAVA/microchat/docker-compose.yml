@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: authdb
+    ports:
+      - "3306:3306"
+    networks:
+      - microchat-net
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - microchat-net
+
+  auth-service:
+    build: ./auth-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mysql
+    networks:
+      - microchat-net
+
+  user-service:
+    build: ./user-service
+    ports:
+      - "8082:8082"
+    depends_on:
+      - mysql
+    networks:
+      - microchat-net
+
+  message-service:
+    build: ./message-service
+    ports:
+      - "8083:8083"
+    depends_on:
+      - mysql
+      - redis
+    networks:
+      - microchat-net
+
+  chat-socket-service:
+    build: ./chat-socket-service
+    ports:
+      - "8084:8084"
+    networks:
+      - microchat-net
+
+networks:
+  microchat-net:
+    driver: bridge

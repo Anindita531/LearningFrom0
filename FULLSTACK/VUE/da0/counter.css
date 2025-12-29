@@ -1,0 +1,25 @@
+body{
+padding-top :100px;background-color:#ddec45;
+item-alignment:center; 
+}
+
+#app{
+box-shadow:0 3px 4px rgba(0,1,66,5.9);
+background-color:#fced36;
+max-width:400px;
+padding-left :100px;
+}
+#name,p
+{
+box-shadow:0 3px 4px rgba(0,1,66,5.9);
+background-color:#9ced36;
+padding-left :100px;
+text-shadow:0 3px 4px #abcdef,0 3px 4px #fedcba;
+}
+#input,#value {
+
+box-shadow:0 3px 4px rgba(0,1,66,5.9);
+background-color:#3ced36;
+max-width:400px;
+padding-left :100px;
+}

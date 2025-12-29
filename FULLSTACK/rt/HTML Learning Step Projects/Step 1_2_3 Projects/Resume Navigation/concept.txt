@@ -1,0 +1,19 @@
+🧾 Task 2: Resume Navigation
+
+একটা “Resume” পেজ বানাও যেখানে
+উপরে Table of Contents থাকবে, আর নিচে সেগুলোর section।
+
+Structure:
+
+My Resume
+|__ [Education]
+|__ [Skills]
+|__ [Projects]
+|__ [Contact]
+
+
+Table of contents-এ <a href="#education">Education</a> এভাবে লিঙ্ক দেবে
+
+নিচে <h2 id="education">Education</h2> section তৈরি করবে
+
+সব internal link (একই পেজে scroll করে নিয়ে যাবে)

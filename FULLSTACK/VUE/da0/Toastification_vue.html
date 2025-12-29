@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue + Toastify Notification</title>
+
+  <!-- Vue 3 -->
+  <script src="https://unpkg.com/vue@3"></script>
+
+  <!-- Toastify CSS and JS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+<body>
+  <div id="app">
+    <input v-model="name" placeholder="Enter name" />
+    <button @click="greet">Greet</button>
+  </div>
+
+  <script>
+    const app = Vue.createApp({
+      data() {
+        return {
+          name: ''
+        };
+      },
+      methods: {
+        greet() {
+          if (!this.name.trim()) {
+            Toastify({
+              text: "⚠️ Please enter your name!",
+              backgroundColor: "linear-gradient(to right, #ff5f6d, #ffc371)",
+              duration: 3000
+            }).showToast();
+          } else {
+            Toastify({
+              text: `🎉 Hello, ${this.name}!`,
+              backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
+              duration: 3000
+            }).showToast();
+          }
+        }
+      }
+    });
+
+    app.mount('#app');
+  </script>
+</body>
+</html>
+

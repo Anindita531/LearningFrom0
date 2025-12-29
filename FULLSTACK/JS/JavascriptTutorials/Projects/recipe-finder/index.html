@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">🍲 Recipe Finder</a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="input-group mb-4">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search any recipe...">
+            <button class="btn btn-dark" id="searchBtn">Search</button>
+        </div>
+
+        <div id="results" class="row gy-4"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+df<-data.frame(
+name=c("Anindita","Dabashmita","Patatree"),
+age=c(21,21,21),
+marks=c(85,89,88)
+)
+print(df)
+df$marks
+df[2,]
+df[1,3]

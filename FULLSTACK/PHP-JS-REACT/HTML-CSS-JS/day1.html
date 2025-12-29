@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+
+<meta content="width=device-width initial-scale=1.0" >
+<style>
+body{
+background-color:#de5df8;
+
+margin:200px;
+}
+button{
+padding:20px;
+color:red;
+box-shadow: 0 0 20px #ff4b5c, 0 0 30px #ff4b5c;
+border-radius :20px;
+cursor:pointer;
+font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #fd4b5c, #4dd4c1, #f4f7f8);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: shineText 3s linear infinite;
+ 
+}
+
+@keyframes shineText {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+@keyframes pulseAnim {
+  0% { transform: scale(1) rotateX(180deg); }
+  50% { transform: scale(0.9) rotateY(90deg); }
+  100 % { transform: scale(1)  rotateX(180deg);}
+ 
+}
+.glow-button{
+margin :50px;  transform: scale(1.05);
+}
+button:hover{
+ animation: pulseAnim 2s infinite;
+background-color:black;
+}
+</style>
+</head>
+<body>
+ 
+<button  onClick="btnChangeColor()"> Click Me and See the Magic </button>
+
+<script>
+const colors=["red","blue","cyan","purple","pink","orange","green","yellow","black"];
+function btnChangeColor(){
+document.body.style.backgroundColor=colors[Math.floor(Math.random()*colors.length)];
+document.body.style.buttonc.backgroundColor=colors[Math.floor(Math.random()*colors.length)];
+}
+</script>
+</body>
+
+</html>

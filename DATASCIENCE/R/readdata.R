@@ -1,0 +1,7 @@
+data<-read.csv("d:\Learning From Zero\DATASCIENCE\R\Telco-Customer-Churn.csv")
+head(data)
+tail(data)
+str(data)
+summary(data)
+library(readxl)
+data<-read_excel("data.xlsx")

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Example</title>
+</head>
+<body>
+  <div id="firstBox" class="box" style="width:100px;height:100px;background:red;margin:5px;"></div>
+  <div class="box" style="width:100px;height:100px;background:green;margin:5px;"></div>
+  <div class="box" style="width:100px;height:100px;background:blue;margin:5px;"></div>
+
+  <script>
+    // Selecting in different ways 👇
+
+    // 1️⃣ By ID
+    const first = document.getElementById("firstBox");
+    console.log("By ID:", first);
+
+    // 2️⃣ By Class
+    const boxesByClass = document.getElementsByClassName("box");
+    console.log("By Class:", boxesByClass);
+
+    // 3️⃣ By Tag Name
+    const boxesByTag = document.getElementsByTagName("div");
+    console.log("By Tag Name:", boxesByTag);
+
+    // 4️⃣ By querySelector (first match)
+    const firstBox = document.querySelector(".box");
+    console.log("By querySelector:", firstBox);
+
+    // 5️⃣ By querySelectorAll (all matches)
+    const allBoxes = document.querySelectorAll(".box");
+    console.log("By querySelectorAll:", allBoxes);
+  </script>
+</body>
+</html>

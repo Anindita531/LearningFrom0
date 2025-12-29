@@ -1,0 +1,9 @@
+my_list<-list(
+name="Anindita",
+age=21,
+marks=c(91,92,98),
+passed=TRUE
+)
+print(my_list)
+my_list$name
+my_list[[3]]

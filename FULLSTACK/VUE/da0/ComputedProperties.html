@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue Greet with SweetAlert2</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body><div id="app">
+  <p>First Name: <input v-model="firstName" /></p>
+  <p>Last Name: <input v-model="lastName" /></p>
+  <p>Full Name: {{ fullName }}</p>
+</div>
+
+<script>
+const app = Vue.createApp({
+  data() {
+    return {
+      firstName: 'Anindita',
+      lastName: 'Ghosh'
+    };
+  },
+  computed: {
+    fullName() {
+      return this.firstName + ' ' + this.lastName;
+    }
+  }
+});
+app.mount('#app');
+</script></body>
+</html>

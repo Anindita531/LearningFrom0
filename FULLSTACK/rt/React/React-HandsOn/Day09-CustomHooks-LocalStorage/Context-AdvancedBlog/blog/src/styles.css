@@ -1,0 +1,95 @@
+body {
+  transition: background 0.5s, color 0.5s;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+.post-form {
+  background: linear-gradient(to left,rgb(95, 95, 173),rgb(236, 78, 210)
+  );
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.post-form input, .post-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+.post-form button {
+  background: #aa05053f;
+  color: rgba(5, 5, 5, 0.267);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.post-card {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 15px;
+}
+
+.post-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.meta {
+  color: gray;
+  font-size: 0.9rem;
+}
+.post-card h2 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+/* Base style for all FA icons */
+.fa {
+    background: transparent;
+    color: #333;              /* Default icon color */
+    font-size: 1.5rem;        /* Default size (relative to root font size) */
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Change color on hover */
+.fa:hover {
+    color: #007bff;           /* Blue on hover */
+    transform: scale(1.1);    /* Slight zoom effect */
+}
+.delete {
+    color: #e74c3c;           /* Red for delete icon */
+}
+.famarked {
+    color: #f1c40f;           /* Yellow for bookmark icon */
+    font-size: 1.5rem;        /* Default size (relative to root font size) */
+    background-color: wheat;
+}

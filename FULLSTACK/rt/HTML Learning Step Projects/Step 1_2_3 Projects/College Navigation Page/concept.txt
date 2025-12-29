@@ -1,0 +1,33 @@
+তোমার কলেজের জন্য একটা “Quick Links” পেজ তৈরি করো।
+
+Example Sections:
+
+Academics
+
+Syllabus PDF
+
+Results Portal
+
+Facilities
+
+Library
+
+Hostel Info
+
+Contact
+
+College Website
+
+Admission Page
+
+🧠 প্রতিটা link-এ official college site বা dummy URL দাও।
+
+🧠 Learning Outcome:
+
+এগুলো করলে তুমি শিখবে:
+
+কিভাবে webpage-এর content logically structure করতে হয়
+
+কিভাবে লিঙ্ক ব্যবহার করে user navigation বানানো যায়
+
+কিভাবে nested lists future menu বা sidebar-এর জন্য কাজে লাগে

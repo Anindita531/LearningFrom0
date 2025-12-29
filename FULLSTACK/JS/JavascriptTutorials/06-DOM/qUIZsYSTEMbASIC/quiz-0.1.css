@@ -1,0 +1,62 @@
+/* Basic CSS file for quiz system */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.question-container {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    align-items: center;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    border: 2px solid #5f5858;
+}
+legend{
+    border: 3px  #000000;
+}
+input[type="text"] {
+    border: 1px solid #000000;
+    padding: 8px;
+    outline: none;
+    border-radius: 10px;
+}
+input[type="text"]:hover{
+    border-color:rgb(189, 128, 16) ;
+}
+input[type="radio"].option {
+    cursor: pointer;
+}
+label{
+    box-shadow: transparent;
+}
+label:hover{
+    cursor: pointer;
+}
+button {
+    background-color: #521717;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #48494d;
+    color: #e0e0e0;
+}
+
+#question {
+    padding-left: 20px;
+}
+
+#answer {
+    padding-left: 20px;
+}
+

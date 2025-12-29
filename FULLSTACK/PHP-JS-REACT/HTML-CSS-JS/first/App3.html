@@ -1,0 +1,39 @@
+<div id="root"></div>
+<head>
+    <style>
+        .button    {
+            padding: 20px;
+            margin: 100px;
+            color: rgb(209, 163, 13);
+           border-radius: 20px;
+           cursor: pointer;
+        }
+        .button :hover{
+            background-color: rgb(151, 103, 0);
+        }
+    </style>
+</head>
+<script>
+const students = [
+  { name: "Anindita", age: 21, branch: "IT" },
+  { name: "Ayaan", age: 22, branch: "CSE" },
+  { name: "Neha", age: 20, branch: "ECE" }
+];
+
+function showGreeting(name) {
+  alert("Hello, " + name + "!");
+}
+
+const root = document.getElementById("root");
+root.innerHTML = students.map(student => `
+  <div style="border:1px solid black;padding:10px;margin:10px; color: rgb(209, 163, 13);
+           border-radius: 20px;">
+    <h2>${student.name}</h2>
+    <p>Age: ${student.age}</p>
+    <p>Branch: ${student.branch}</p>
+    <button style="border:1px solid black;padding:10px;margin:100px; color: rgb(209, 163, 13);
+           border-radius: 20px;
+           cursor: pointer;" onclick="showGreeting('${student.name}')">Greet</button>
+  </div>
+`).join('');
+</script>

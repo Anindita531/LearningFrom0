@@ -1,0 +1,10 @@
+# ninja log v6
+13	123	7790142801525337	main_autogen/timestamp	b361f069962d4334
+120	2552	7790139096206505	CMakeFiles/main.dir/main.cpp.obj	5177906c602fb081
+13	123	7790142801525337	main_autogen/mocs_compilation.cpp	b361f069962d4334
+13	123	7790142801525337	D:/Learning From Zero/CPP_Frombeg/GUI/main/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/main_autogen/timestamp	b361f069962d4334
+2552	2760	7790139120530440	main.exe	5cdbbbf2feceb427
+13	123	7790142801525337	D:/Learning From Zero/CPP_Frombeg/GUI/main/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/main_autogen/mocs_compilation.cpp	b361f069962d4334
+1637	3834	7790138339464526	CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj	9bea1c9d6a4488d2
+123	2580	7790142802631388	CMakeFiles/main.dir/mainwindow.cpp.obj	d2d321611fc88c4c
+126	2617	7790142802651376	CMakeFiles/main.dir/day1.cpp.obj	3e99e9d00a40c1c

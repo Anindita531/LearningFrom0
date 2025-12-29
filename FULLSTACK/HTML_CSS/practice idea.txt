@@ -1,0 +1,19 @@
+For example:
+
+To-Do List → Help people track tasks
+
+BMI Calculator → People track health
+
+Expense Tracker → Budgeting tool
+
+Notes App → Like a mini notepad
+
+Resume Builder → Help people generate resumes from forms
+
+Loan EMI Calculator → Helps others easily check their monthly payments
+Project Name	Description	Who It Helps
+✍️ Personal Diary Web App	Add daily thoughts with sections and date-wise display.	Students, writers.
+📋 Task List Page	Mark daily tasks, priorities with colored sections.	Workers, students.
+💡 Idea Board / Notes Page	Collect & display ideas like sticky notes.	Creators, teams.
+📚 Mini Resume Page	Create your own styled CV using sections.	Freshers, job seekers.
+🌍 Local Resource Hub	Share links/resources/notes for a community (e.g., your college).	Friends, classmates.

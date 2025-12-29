@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta content="viewport" width="device-width,initial-scale="1.0">
+<head>
+<title>Typewritter</title>
+<style>
+.typewritter{
+font-size:23px;
+overflow:hidden;
+whitespace:nowrap;
+width:0ch;
+animation:typing 3s steps(20,end) infinite,blink 0.4s steps(1) infinite;
+}
+@keyframes  typing
+{
+0%  {width:0ch;}
+
+40% {width:28ch;}
+60%{width:28ch;}
+100%{width:0ch;}
+}
+@keyframes  blink{
+  
+50%{opacity:1;}
+}
+</style>
+</head>
+<body>
+<div class="typewritter">
+Hey THERE I am here..
+</div>
+</body>
+</html>

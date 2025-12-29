@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta character ="UTF-8">
+<meta name="viewport" width=device-width,initial-scale=1.0>
+<title id="output"></title>
+<Script src="first.js"></Script>
+</head>
+<body>
+<Script >
+console.log("Hello, World !");let count = 0;
+
+const timer = setInterval(() => {
+  count++;
+  console.log("Count:", count);
+}, 1000);
+
+// ৫ সেকেন্ড পর থামিয়ে দিই
+setTimeout(() => {
+  clearInterval(timer);
+  console.log("Timer stopped!");
+}, 5000);
+
+</Script>
+</body>
+</html>

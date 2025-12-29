@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-52da72165047771d23ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "InputNameShowMessage",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "InputNameShowMessage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InputNameShowMessage-Debug-acda1e7a861cd02ca515.json",
+					"name" : "InputNameShowMessage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InputNameShowMessage_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InputNameShowMessage_autogen-Debug-1127adbca6c9120b4e61.json",
+					"name" : "InputNameShowMessage_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InputNameShowMessage_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InputNameShowMessage_autogen_timestamp_deps-Debug-376851d3227158159256.json",
+					"name" : "InputNameShowMessage_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Learning From Zero/CPP_Frombeg/GUI/InputNameShowMessage/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
+		"source" : "D:/Learning From Zero/CPP_Frombeg/GUI/InputNameShowMessage"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,98 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content ="width=device-width,initial-scale=1.0">
+<style>
+body{
+background:url("img1.jpg");
+background-size:cover;
+background-position  :left;
+background-repeat :no-repeat;
+box-shadow :0 3px 4px rgb(0,55,77);
+margin :150px;
+}
+input{
+margin :150px;
+padding:0;
+}
+button {
+background-color:green;
+padding :50px;
+margin :20px;
+box-shadow :0 3px 24px rgb(0,255,97);
+border-radius :50%;
+
+}
+@media screen and(max-width:768px) {
+
+}
+@media screen and(max-width:578px)and(min-width:778px)  {
+
+}
+@media screen and(orientation :portrait) {
+
+}
+p{
+padding :100px;
+color:pink;
+
+box-shadow :0 3px 4px rgb(0,55,77);
+}
+.tooltip{
+
+position:relative;
+width :30px;
+border-radius:50%;
+display :inline-block;
+cursor :pointer;
+background-color:pink;
+bordercolor:black;
+}
+.tooltip:hover .tooltipbox{
+visibility:visible;
+opacity :1;
+}
+.tooltip .tooltipbox{
+visibility:hidden;
+width :300px;
+background-color:black;
+color:#bbb;
+border-radius:5px;
+padding :5px;
+position:absolute;
+
+bottom:125%;
+margin-left :-70px;
+opacity:0;
+transition :opacity 0.4s;
+}
+.input{
+width:470px;
+height :350px;
+padding-left :240px;
+}
+.icon{
+padding:13px;
+}
+
+</style><title>Simple basic js</title>
+
+<div class="tooltip"><span class ="icon">!</span> <span class ="tooltipbox" >I am a tool tip!</span></div>
+<input type='text' id='name' placeholder="Type your name" required=true>
+<button id="header" onclick="greet()">welcome</button>
+<p id="output"></p>
+
+</head>
+<body>
+<script>
+function greet(){
+//get the vfrom input field 
+const name =document.getElementById("name").value;
+document.getElementById("output").innerHTML="hii "+name+"!";
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+marks<-c(75,85,49,63,98,23,93)
+mean(marks)
+median(marks)
+sd(marks)
+var(marks)
+summary(marks)

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Quotes</title>
+</head>
+<body>
+    <h1>Positive Quotes</h1>
+    <ul>
+        {% for user in users %}
+            <li><strong>{{ user.name }}</strong>: {{ user.quote }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

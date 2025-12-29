@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 8px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ball {
+  width: 60px;
+  height: 60px;
+  background: crimson;
+  border-radius: 50%;
+  position: relative;
+
+  /* shorthand animation: 
+     name duration timing delay iteration direction fill-mode play-state */
+  animation: bounce 3s ease-in-out 1s infinite alternate forwards running;
+}
+
+/* Keyframes: move + color change */
+@keyframes bounce {
+  0%   { transform: translateX(0);   background: crimson; }
+  50%  { transform: translateX(200px); background: gold; }
+  100% { transform: translateX(400px); background: limegreen; }
+}

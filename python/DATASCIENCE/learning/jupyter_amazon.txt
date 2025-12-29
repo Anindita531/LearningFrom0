@@ -1,0 +1,53 @@
+import pandas as pd
+url = "https://raw.githubusercontent.com/luminati-io/Amazon-dataset-samples/main/amazon-products.csv"
+df = pd.read_csv(url)
+print(df.head())
+#Step 1: Clean the Price Columns Remove quotes and convert to float
+df['initial_price'] = pd.to_numeric(df['initial_price'].astype(str).str.replace('"', ''), errors='coerce')
+df['final_price'] = pd.to_numeric(df['final_price'].astype(str).str.replace('"', ''), errors='coerce')
+# Step 2: Basic Analysis Number of products
+print("Total products:", len(df))
+
+# Average final price
+print("Average final price:", df['final_price'].mean())
+
+# Top 5 most reviewed products
+top_reviewed = df.sort_values(by='reviews_count', ascending=False).head(5)
+print(top_reviewed[['title', 'reviews_count', 'final_price']]) 
+
+#✅ Step 3: Filtering  Products with rating above 4.5 and price below $50
+filtered = df[(df['rating'] > 4.5) & (df['final_price'] < 50)]
+print(filtered[['title', 'rating', 'final_price']])
+ #Step 4: Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Histogram of final prices
+plt.figure(figsize=(8, 4))
+sns.histplot(df['final_price'].dropna(), bins=30, kde=True)
+plt.title("Distribution of Final Prices")
+plt.xlabel("Price")
+plt.ylabel("Frequency")
+plt.show()
+
+# Top brands by number of products
+top_brands = df['brand'].value_counts().head(10)
+top_brands.plot(kind='bar', title='Top 10 Brands by Product Count')
+plt.ylabel("Number of Products")
+plt.xticks(rotation=45)
+plt.show()
+#Find the product with the highest rating.
+print(df[df['rating']==df['rating'].max()])
+#Count how many products are from each currency.
+# Count products by currency
+currency_counts = df['currency'].value_counts()
+print(currency_counts)
+
+import matplotlib.pyplot as plt
+
+currency_counts.plot(kind='pie' )
+plt.title('Product Count by Currency')
+plt.xlabel('Currency')
+plt.ylabel('Number of Products')
+plt.xticks(rotation=30)
+plt.show()

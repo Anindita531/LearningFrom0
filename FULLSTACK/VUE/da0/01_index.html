@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head><script src="https://unpkg.com/vue@3.4.21/dist/vue.global.js"></script></head>
+<body>
+<div id="app">
+  <input v-model="name" />
+  <p>Hello, {{ name }}!</p>
+</div>
+
+<script>
+const app = Vue.createApp({
+  data() {
+    return {
+      name: ""
+    }
+  }
+});
+app.mount('#app');
+</script></body>
+</html>

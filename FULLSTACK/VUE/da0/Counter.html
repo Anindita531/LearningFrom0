@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue Live Character Counter</title>
+<link rel="stylesheet" href="counter.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+  <div id="app">
+  <input :value="name" @input="name = $event.target.value" />
+  <p id="name">Hello, {{ name }}</p>
+ <p>charecters, {{ this.name.length }}</p>
+
+</div>
+
+<script>
+  const app = Vue.createApp({
+    data() {
+      return {
+        name: ''
+      };
+    }
+  });
+
+  app.mount('#app');
+</script>
+
+</body>
+</html>

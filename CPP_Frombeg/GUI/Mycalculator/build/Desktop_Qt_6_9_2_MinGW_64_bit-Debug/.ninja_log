@@ -1,0 +1,47 @@
+# ninja log v6
+9	800	7790147294201386	Mycalculator_autogen/timestamp	23628f35a733c26f
+9	800	7790147294201386	Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+9	800	7790147294201386	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/timestamp	23628f35a733c26f
+9	800	7790147294201386	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+804	3235	7790147294861340	CMakeFiles/Mycalculator.dir/Mycalculator_autogen/mocs_compilation.cpp.obj	60649e45b0eac582
+811	3337	7790147294931377	CMakeFiles/Mycalculator.dir/mainwindow.cpp.obj	f8eeed10f3ad8588
+807	3505	7790147294901374	CMakeFiles/Mycalculator.dir/main.cpp.obj	12463cfabeb1bef6
+3505	3747	7790147321878711	Mycalculator.exe	70530a343e79d0bc
+14	132	7790150856383801	Mycalculator_autogen/timestamp	23628f35a733c26f
+14	132	7790150856383801	Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+14	132	7790150856383801	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/timestamp	23628f35a733c26f
+14	132	7790150856383801	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+135	2293	7790150857600405	CMakeFiles/Mycalculator.dir/mainwindow.cpp.obj	f8eeed10f3ad8588
+132	2500	7790150857570097	CMakeFiles/Mycalculator.dir/main.cpp.obj	12463cfabeb1bef6
+2500	2698	7790150881253719	Mycalculator.exe	70530a343e79d0bc
+13	132	7790153113058239	Mycalculator_autogen/timestamp	23628f35a733c26f
+13	132	7790153113058239	Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+13	132	7790153113058239	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/timestamp	23628f35a733c26f
+13	132	7790153113058239	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+136	2349	7790153114279323	CMakeFiles/Mycalculator.dir/mainwindow.cpp.obj	f8eeed10f3ad8588
+13	132	7790153353735132	Mycalculator_autogen/timestamp	23628f35a733c26f
+13	132	7790153353735132	Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+13	132	7790153353735132	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/timestamp	23628f35a733c26f
+13	132	7790153353735132	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+136	2283	7790153354965135	CMakeFiles/Mycalculator.dir/mainwindow.cpp.obj	f8eeed10f3ad8588
+133	2464	7790153354935129	CMakeFiles/Mycalculator.dir/main.cpp.obj	12463cfabeb1bef6
+2464	2659	7790153378252924	Mycalculator.exe	70530a343e79d0bc
+13	147	7790156615811522	Mycalculator_autogen/timestamp	23628f35a733c26f
+13	147	7790156615811522	Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+13	147	7790156615811522	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/timestamp	23628f35a733c26f
+13	147	7790156615811522	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+150	2344	7790156617191473	CMakeFiles/Mycalculator.dir/mainwindow.cpp.obj	f8eeed10f3ad8588
+147	2572	7790156617151488	CMakeFiles/Mycalculator.dir/main.cpp.obj	12463cfabeb1bef6
+2572	2802	7790156641402960	Mycalculator.exe	70530a343e79d0bc
+18	138	7790157680286773	Mycalculator_autogen/timestamp	23628f35a733c26f
+18	138	7790157680286773	Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+18	138	7790157680286773	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/timestamp	23628f35a733c26f
+18	138	7790157680286773	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+141	2207	7790157681516810	CMakeFiles/Mycalculator.dir/mainwindow.cpp.obj	f8eeed10f3ad8588
+13	132	7790158305692323	Mycalculator_autogen/timestamp	23628f35a733c26f
+13	132	7790158305692323	Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+13	132	7790158305692323	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/timestamp	23628f35a733c26f
+13	132	7790158305692323	D:/Learning From Zero/CPP_Frombeg/GUI/Mycalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Mycalculator_autogen/mocs_compilation.cpp	23628f35a733c26f
+135	2262	7790158306912304	CMakeFiles/Mycalculator.dir/mainwindow.cpp.obj	f8eeed10f3ad8588
+132	2461	7790158306882336	CMakeFiles/Mycalculator.dir/main.cpp.obj	12463cfabeb1bef6
+2461	2684	7790158330172987	Mycalculator.exe	70530a343e79d0bc

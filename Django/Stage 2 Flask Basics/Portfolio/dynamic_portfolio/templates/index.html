@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Dynamic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body style="font-family:sans-serif;">
+    <header style="background-color:#4CAF50; color:white; padding:10px;">
+        <h1>{{ name }}</h1>
+        <p>{{ bio }}</p>
+    </header>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+        {% for skill in skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        {% for project in projects %}
+            <div style="border:1px solid #ccc; margin:8px; padding:10px; border-radius:5px;">
+                <h3>{{ project.title }}</h3>
+                <p>{{ project.desc }}</p>
+
+                {% if "Flask" in project.desc %}
+                    <p><strong>Category:</strong> Flask Project 🧩</p>
+                {% else %}
+                    <p><strong>Category:</strong> Other</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </section>
+<section>
+<h2>Achievements</h2>
+{% if skills|length > 2 %}
+  <p>You have a great tech stack! 🚀</p>
+{% endif %}
+
+   </section>
+</body>
+</html>

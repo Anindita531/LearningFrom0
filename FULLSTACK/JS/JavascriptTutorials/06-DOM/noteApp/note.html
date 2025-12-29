@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Notes</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="note.css">
+</head>
+
+<body>
+    <fieldset class="notes-container">
+        <legend >NOTES APP</legend>
+        <label for  ="topic">Choose Note topic</label>
+        <select id="topic" name="topic">
+            <option value="math" id="Math">Math</option>
+            <option value="html" id="html">html</option>
+            <option value="science" id="science">science</option>
+            <option value="English" id="English">English</option>
+        </select>
+        <textarea placeholder="Type Your Notes.."></textarea>
+        <button id="note-add" onclick="noteadd()">+</button>
+
+    </fieldset>
+    <div class="show-notes">
+        <p >Notes </p>
+        <table border="2px" aria-colspan="5">
+            <th colspan="7">Here Your Note </th>
+             <tr>
+                <th>sl.no</th>
+                <th>Topic</th>
+                <th>Notes</th>
+                <th colspan="3">Action</th>
+               
+             </tr>    
+        </table>
+    </div>
+    <script src="note.js"></script>
+</body>
+
+</html>

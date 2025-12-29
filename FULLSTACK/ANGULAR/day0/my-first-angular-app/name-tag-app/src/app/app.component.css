@@ -1,0 +1,25 @@
+input {
+  font-size: 16px;
+  border: 1px solid #1c0bbb;
+  border-radius: 4px;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+input, button {
+  padding: 8px;
+  font-size: 16px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #854fe91e;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(7, 39, 143, 0.856);
+}

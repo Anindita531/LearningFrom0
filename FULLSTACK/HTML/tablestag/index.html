@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Anindita Ghosh">
+    <meta name="keywords" content="HTML, CSS, Student Portfolio, Web Development">
+    <meta name="description" content="This is a mini student portfolio webpage for practicing HTML basics.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+</head>
+<body>
+
+    <!-- Website Header -->
+    <header id="main-header">
+        <h1 class="title">Welcome to My Student Portfolio</h1>
+        <p class="subtitle">Learning HTML Day 6 - Mini Project</p>
+        <nav>
+            <a href="about.html" target="_blank">About Me</a> |
+            <a href="https://github.com/Anindita531" target="_blank">My GitHub</a> |
+            <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+    </header>
+    <hr>
+
+    <!-- Student Image with Figure and Caption -->
+    <figure>
+        <img src="student.jpg" alt="Photo of Anindita" width="250" height="250">
+        <figcaption>My Recent Photo</figcaption>
+    </figure>
+    <hr>
+
+    <!-- Student Information Table -->
+    <h2>Student Information</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th colspan="3">Student Report</th>
+            </tr>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Subjects & Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">21IT530</td>
+                <td rowspan="3">Anindita Ghosh</td>
+                <td>HTML - 95</td>
+            </tr>
+            <tr>
+                <td>CSS - 90</td>
+            </tr>
+            <tr>
+                <td>JavaScript - 85</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" style="text-align:center;">Result: <b>Passed with Distinction 🎉</b></td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+
+    <!-- External Resources -->
+    <section>
+        <h2>Useful HTML Learning Links</h2>
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML MDN Docs</a></li>
+            <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Anindita Ghosh | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

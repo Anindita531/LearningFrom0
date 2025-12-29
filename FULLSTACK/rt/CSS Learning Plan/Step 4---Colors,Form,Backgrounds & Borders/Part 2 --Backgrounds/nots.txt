@@ -1,0 +1,5 @@
+Keyword	Meaning	Analogy
+auto	Use browser’s default behavior	“As usual”
+initial	Reset to default	“Go back to factory settings”
+inherit	Copy parent’s value	“Like my parent”
+unset	Auto choose (inherit or default)	“I’ll decide based on context”

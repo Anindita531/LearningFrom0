@@ -1,0 +1,3 @@
+Hello, C++ File Handling!
+This is line 2.
+This is appended text.

@@ -1,0 +1,6 @@
+p::first-line {
+  color: blue;
+}
+p::first-letter {
+  font-size: 30px;
+}

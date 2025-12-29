@@ -1,0 +1,64 @@
+.animated-container{
+  animation: BlinkColor 15s infinite;
+  text-shadow: 0 0  4px #fbcdef,0 1 6px #fbd65b;
+  
+}
+@keyframes BlinkColor{
+  0%{color:#fb963b ;text-shadow :0 4px 9px #fb963b },
+  25%{ color:#f0855c;text-shadow: 1px 5px 4px #f0855c},
+  
+  50%{ color:#4c85bc;text-shadow: 0 5px 8px #4c85bc},
+  
+75%{ color:#f0bcdc;text-shadow: 0 6px 8px #f0bcdc},
+  100%{ color:#dfcb58;text-shadow: 1px 5px 8px #dfcb58}
+  
+}
+
+
+.typewriter{
+  
+  color:#855474;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #855474;
+  animation: typing 1s  step(30,end) forwards,blink 0.6s steps(1, end)infinite;
+}
+
+
+@keyframes blink
+  
+  {
+    0%{border-color:transparent;}
+
+50%{border-color:#855474;}
+    100%{border-color:transparent;}
+}
+@keyframes typing{
+  from{width:0;}
+  to {width:100%;}
+}
+.flip-card{
+  margin:0;
+  perspective: 1000px;
+  height :200px;
+  width:200px;
+}
+.flipinner{
+  height :200px;
+  width:200px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover.flipinner{
+transform: rotateY(180deg);
+
+}
+.flip-front{
+  transform: rotateY(180deg);
+  background-color: #fbcdef;
+  
+}
+.flip-back{
+transform: rotateY(180deg);
+  background-color: #bfcfcf;
+}

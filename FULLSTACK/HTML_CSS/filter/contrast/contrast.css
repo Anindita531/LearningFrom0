@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+
+img {
+  margin: 20px;
+  border: 3px solid #333;
+  transition: filter 0.5s;
+}
+
+/* Normal contrast */
+.normal {
+  filter: contrast(100%);
+}
+
+/* High contrast */
+.high-contrast {
+  filter: contrast(200%);
+}
+
+/* Low contrast */
+.low-contrast {
+  filter: contrast(50%);
+}
+
+/* Hover effect */
+img:hover {
+  filter: contrast(150%);
+}

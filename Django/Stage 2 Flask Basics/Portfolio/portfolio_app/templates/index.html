@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hi! I am Anindita, a Python & Flask learner.</p>
+        <img src="{{ url_for('static', filename='images/profile.jpg') }}" width="150" alt="Profile Picture">
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Movie Tracker CLI</li>
+            <li>User Info Form App</li>
+            <li>Portfolio Website</li>
+        </ul>
+    </section>
+    <button onclick="showMessage()">Click Me</button>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+# ninja log v6
+9	747	7790148842978182	InputFields_autogen/timestamp	7bc66aa65349e18c
+9	747	7790148842978182	InputFields_autogen/mocs_compilation.cpp	7bc66aa65349e18c
+9	747	7790148842978182	D:/Learning From Zero/CPP_Frombeg/GUI/InputFields/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/InputFields_autogen/timestamp	7bc66aa65349e18c
+9	747	7790148842978182	D:/Learning From Zero/CPP_Frombeg/GUI/InputFields/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/InputFields_autogen/mocs_compilation.cpp	7bc66aa65349e18c
+751	2927	7790148843611359	CMakeFiles/InputFields.dir/InputFields_autogen/mocs_compilation.cpp.obj	fa8c3372f045a31b
+758	3055	7790148843691364	CMakeFiles/InputFields.dir/mainwindow.cpp.obj	3089dbc7434b3284
+755	3224	7790148843651354	CMakeFiles/InputFields.dir/main.cpp.obj	1c71b48227ec288f
+3225	3426	7790148868349758	InputFields.exe	474879b44444cbd6

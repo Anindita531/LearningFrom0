@@ -1,0 +1,9 @@
+# ninja log v6
+9	686	7790173136399270	AddButton_autogen/timestamp	d53a93e73bedb5e0
+9	686	7790173136399270	AddButton_autogen/mocs_compilation.cpp	d53a93e73bedb5e0
+9	686	7790173136399270	D:/Learning From Zero/CPP_Frombeg/GUI/AddButton/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/AddButton_autogen/timestamp	d53a93e73bedb5e0
+9	686	7790173136399270	D:/Learning From Zero/CPP_Frombeg/GUI/AddButton/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/AddButton_autogen/mocs_compilation.cpp	d53a93e73bedb5e0
+690	2985	7790173136989542	CMakeFiles/AddButton.dir/AddButton_autogen/mocs_compilation.cpp.obj	e8f1dada26df4cc
+695	3068	7790173137039282	CMakeFiles/AddButton.dir/mainwindow.cpp.obj	d15c27172929895f
+692	3081	7790173137019275	CMakeFiles/AddButton.dir/main.cpp.obj	92c43e45188f71e6
+3081	3262	7790173160910537	AddButton.exe	490f5f4d13f6564c

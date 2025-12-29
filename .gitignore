@@ -1,0 +1,28 @@
+# ===== Node =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Data / ML =====
+*.csv
+*.xlsx
+*.pkl
+*.db
+
+# ===== Images / datasets =====
+*.jpg
+*.png
+
+# ===== OS / IDE =====
+.vscode/
+.idea/
+.DS_Store

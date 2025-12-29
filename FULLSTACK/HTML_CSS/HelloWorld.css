@@ -1,0 +1,8 @@
+body {
+  background-image: url("bg.jpeg"); /* Replace with your file */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}

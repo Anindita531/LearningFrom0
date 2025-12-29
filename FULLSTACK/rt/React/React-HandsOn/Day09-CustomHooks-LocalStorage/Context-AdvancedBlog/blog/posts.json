@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the Blog",
+      "author": "Anindita Ghosh",
+      "content": "This is your first post!",
+      "likes": 0,
+      "bookmarked": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue Live Greet</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+   <link rel="stylesheet" href ="buttons.css">
+ 
+</head>
+<body>
+  <div id="app">
+    <input v-model="name" placeholder="Enter name" />
+    <button @click="greet">Greet</button>
+
+    <div v-if="show" :class="{ 'fade-out': fading }" id="notification">
+      {{ message }}
+    </div>
+  </div>
+
+  <script>
+    const app = Vue.createApp({
+      data() {
+        return {
+          name: '',
+          message: '',
+          show: false,
+          fading: false,
+        };
+      },
+      methods: {
+        greet() {
+          this.message = `Hello, ${this.name}! 🎉`;
+          this.show = true;
+          this.fading = false;
+
+          setTimeout(() => {
+            this.fading = true;
+          }, 2000); // Start fade after 2s
+
+          setTimeout(() => {
+            this.show = false;
+            this.fading = false;
+          }, 3000); // Hide after 3s
+        }
+      }
+    });
+    app.mount('#app');
+  </script>
+</body>
+</html>

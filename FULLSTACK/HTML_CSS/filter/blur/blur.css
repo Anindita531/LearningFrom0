@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+
+img {
+ width:200px;
+height:200px;
+  margin: 20px;
+  border: 3px solid #333;
+}
+
+/* Normal image */
+.normal { 
+  filter: blur(0px); /* No blur */
+}
+
+/* Blurred image */
+.blurred { 
+  filter:  blur(200px); /* Apply 5px blur */
+  transition: filter 5s;
+}
+
+.blurred:hover {
+  filter: blur(0px); /* Remove blur on hover */
+}

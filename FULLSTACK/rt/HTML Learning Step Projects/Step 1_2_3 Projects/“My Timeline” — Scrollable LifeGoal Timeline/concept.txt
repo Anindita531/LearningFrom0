@@ -1,0 +1,16 @@
+🧩 Concept:
+তোমার জীবনের বা learning journey-র timeline বানাও।
+
+Example Structure:
+
+My Journey
+|__ 2010 - School Start
+|__ 2016 - Secondary Exam
+|__ 2021 - B.Tech Admission
+|__ 2025 - Data Science Goal
+
+
+✅ Use <ol> to show time sequence
+✅ প্রতিটা বছরকে <a href="#year2021"> করে নিচে বিস্তারিত দাও
+
+🎯 Unique কারণ: তুমি pure HTML দিয়ে নিজের “career path scroll view” বানাচ্ছো।

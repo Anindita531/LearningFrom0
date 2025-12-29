@@ -1,0 +1,17 @@
+🧩 Concept:
+তুমি তোমার পছন্দের কিছু লেখক বা thinker এর quote collection বানাবে।
+
+Example:
+
+Inspiration Library
+|__ Albert Einstein
+    - "Imagination is more important than knowledge."
+|__ Steve Jobs
+    - "Stay hungry, stay foolish."
+|__ Rabindranath Tagore
+    - "You can’t cross the sea merely by standing and staring at the water."
+
+
+প্রত্যেক author-এর নাম link হবে তাদের Wikipedia বা Biography পেজে।
+
+🎯 Unique কারণ: pure HTML এ তুমি motivational knowledge base বানাচ্ছো।

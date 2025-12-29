@@ -1,0 +1,13 @@
+🎧 Concept:
+প্রতিদিন সকালে খুললে Positive Quotes ও Background Audio বাজবে।
+
+🧱 Features:
+
+একটি সুন্দর ছবি (sunrise বা calm background)
+
+<audio autoplay muted> background music
+
+৩টা quote <marquee> করে ঘুরবে
+
+💡 Skills used:
+<audio>, <marquee>, <font>, <p align>
